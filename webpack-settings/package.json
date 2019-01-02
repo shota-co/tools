@@ -1,0 +1,35 @@
+{
+  "name": "webpack-settings",
+  "version": "1.0.0",
+  "description": "いつもやるめんどくさいwebpackの設定類",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config config/webpack.dev.config.js",
+    "watch": "webpack --watch --config config/webpack.dev.config.js",
+    "server": "webpack-dev-server --mode=development --config config/webpack.dev.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "next",
+    "file-loader": "^3.0.1",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^6.0.1",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webpack-plugin": "^2.3.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
